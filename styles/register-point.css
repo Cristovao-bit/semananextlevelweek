@@ -63,12 +63,12 @@ form .field-address {
 }
 
 form .field-address input[name="address"]{
-    width: 450px;
+    width: 430px;
+    margin-right: 16px;
 }
 
 form .field-address input[name="number"] {
-    margin-left: 16px;
-    width: 90%;
+    width: 100%;
 }
 
 form .field-group {
