@@ -1,0 +1,159 @@
+O ABC do JavaScript
+
+Site para teste: https://codepen.io
+
+// Comments
+document.write("Hello World");
+
+// Variáveis, tipos de dados
+var myvar = "Hello"
+
+document.write(myvar);
+
+const myconst = "He"
+
+document.write(myconst + myvar);
+
+let myvar = "He"
+
+document.write(myvar);
+
+// String
+const s1 = "Isso é uma string";
+const s2 = "Isso também é uma string";
+const s3 = `Isso é uma string também`;
+
+document.write(s2);
+
+// Number
+const n1 = 1;
+const n2 = 12;
+
+document.write(n1 + n2);
+
+
+// Boolean -  true ou false
+const bTrue = true;
+const BFalse = false;
+
+document.write(bTrue);
+
+// Objeto - Possuem propriedades e funcionalidades
+const pessoa = {
+	altura = "1.80m",
+	idade = 24,
+	solteiro = true
+	correr () {
+		return "run forest";
+	}
+};
+
+document.write(pessoa.altura);
+document.write(pessoa.correr());
+
+// Outra maneira
+
+const pessoa = {
+	correr () {
+		document.write("executar uma grande lógica de correr");
+	};
+};
+
+pessoa.correr();
+
+// Array ou vetores
+[ ... ]
+const colecaoDeBolinhas = ["blue", "green", 1, {name:"My Name"}];
+
+document.write(colecaoDeBolinhas[0]);
+document.write(colecaoDeBolinhas[1].name);
+
+// Função - Funcionalidades - Atalhos - Reuso de código
+
+
+// Registrar função
+function sayMyName() {
+	document.write("Mayk");
+};
+
+// executar
+sayMyName();
+
+// Outra forma
+function sayMyName(name) {
+	document.write(name);
+};
+
+sayMyName("Douglas");
+
+// Condicionais
+const notaFinal = 7;
+
+if ( notaFinal < 5 ) {
+	// caminho 1
+	document.write("Reprovado");
+} else {
+	// caminho 2
+	document.write("Aprovado");
+};
+
+// Loop - repetições
+for ( i = 0; i <= 10; i++ ) {
+	document.write(i)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
