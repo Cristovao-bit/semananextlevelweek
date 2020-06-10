@@ -53,13 +53,13 @@ form fieldset legend h2 {
 
 form .field {
     display: flex;
+    flex: 1;
     flex-direction: column;
     margin-bottom: 24px;
 }
 
 form .field-address {
     display: flex;
-    justify-content: space-between;
 }
 
 form .field-address input[name="address"]{
@@ -73,10 +73,6 @@ form .field-address input[name="number"] {
 
 form .field-group {
     display: flex;
-}
-
-form .field-group .field {
-    flex: 1;
 }
 
 form input,
@@ -106,4 +102,20 @@ form label {
 
 form .field-group .field + .field {
     margin-left: 24px;
+}
+
+form button {
+    width: 260px;
+    height: 56px;
+    margin-top: 40px;
+    color: #fff;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #2fb86e;
 }
