@@ -1,24 +1,24 @@
-#page-create-point {
+#page-update-point {
     width: 90%;
     max-width: 1100px;
     margin: 0 auto;
 }
 
-#page-create-point header{
+#page-update-point header{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 48px;
 }
 
-#page-create-point header a {
+#page-update-point header a {
     color: var(--title-color);
     font-weight: 700;
     display: flex;
     align-items: center;
 }
 
-#page-create-point header a span {
+#page-update-point header a span {
     background-image: url('../assets/arrow-left.svg');
     width: 20px;
     height: 24px;
@@ -86,7 +86,7 @@ form select {
 
 form input:hover,
 form select:hover { 
-    border: 1px solid var(--primary-color);
+    border: 1px solid var(--title-color);
 }
 
 form select {
@@ -109,7 +109,7 @@ form button {
     height: 56px;
     margin-top: 40px;
     color: #fff;
-    background-color: var(--primary-color);
+    background-color: var(--title-color);
     border: none;
     border-radius: 8px;
     font-weight: 700;
@@ -118,5 +118,5 @@ form button {
 }
 
 form button:hover {
-    background-color: #2fb86e;
+    background-color: #1a112b;
 }
