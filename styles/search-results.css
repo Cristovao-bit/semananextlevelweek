@@ -1,0 +1,77 @@
+#page-search-results {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+#page-search-results header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+#page-search-results header a {
+    color: var(--title-color);
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+#page-search-results header a span {
+    background-image: url('../assets/arrow-left.svg');
+    width: 20px;
+    height: 24px;
+    display: flex;
+    margin-right: 16px;
+}
+
+#page-search-results main {
+    margin: 48px 0;
+}
+
+#page-search-results main h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+#page-search-results main .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+}
+
+/* espaço para colocar a imagem */
+/*#page-search-results main .card-img {
+    background: #ccc;
+}*/
+
+#page-search-results main .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+#page-search-results main .card h1 {
+    margin-top: 32px;
+    font-size: 36px;
+    line-height: 41px;
+    color: #322153;
+}
+
+#page-search-results main .card h3 {
+    margin: 24px 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    color: var(--primary-color);
+}
+
+#page-search-results main .card p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #6c6c80;
+}

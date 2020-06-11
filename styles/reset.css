@@ -21,6 +21,17 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+body::after {
+    content: "";
+    position: fixed;
+    background: #fff;
+    top: 280px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
 a{text-decoration: none;}
 
 li {list-style: none;}
