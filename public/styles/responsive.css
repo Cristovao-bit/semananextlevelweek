@@ -19,8 +19,33 @@
         align-items: center;
     }
 
+    #page-register-point {
+        
+    }
+
+    #page-register-point .field-address {
+        flex-direction: column;
+    }
+
+    #page-register-point .field-address input[name="address"]{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    #page-register-point .field-group {
+        flex-direction: column;
+    }
+
+    #page-register-point .field-group .field + .field {
+        margin-left: 0;
+    }
+
     #page-search-results .cards {
         grid-template-columns: 1fr;
+    }
+
+    .items-grid {
+        grid-template-columns: 1fr 1fr;
     }
 }
 
@@ -33,6 +58,10 @@
 @media (min-width: 400px) {
     #page-home main h1 {
         font-size: 44px;
+    }
+
+    .items-grid {
+        grid-template-columns: 1fr;
     }
 }
 
