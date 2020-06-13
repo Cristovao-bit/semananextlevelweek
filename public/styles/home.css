@@ -65,6 +65,7 @@
     font-weight: 700;
     margin-top: 40px;
     transition: 400ms;
+    cursor: pointer;
 }
 
 #page-home main a:hover {

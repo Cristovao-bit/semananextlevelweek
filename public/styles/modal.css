@@ -32,6 +32,7 @@
     display: flex;
     font-size: 0.01px;
     background: url('../assets/x.svg');
+    cursor: pointer;
 }
 
 #modal .content .header h1 {
@@ -70,6 +71,7 @@
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     transition: 400ms;
+    cursor: pointer;
 }
 
 #modal form button:hover {
