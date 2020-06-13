@@ -19,10 +19,6 @@
         align-items: center;
     }
 
-    #page-register-point {
-        
-    }
-
     #page-register-point .field-address {
         flex-direction: column;
     }
@@ -58,10 +54,6 @@
 @media (min-width: 400px) {
     #page-home main h1 {
         font-size: 44px;
-    }
-
-    .items-grid {
-        grid-template-columns: 1fr;
     }
 }
 

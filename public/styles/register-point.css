@@ -26,7 +26,7 @@
     margin-right: 16px;
 }
 
-form {
+#page-register-point form {
     background: #fff;
     border-radius: 8px;
     padding: 64px;
@@ -34,16 +34,16 @@ form {
     margin: 80px auto;
 }
 
-form h1 {
+#page-register-point form h1 {
     font-size: 36px;
 }
 
-form fieldset {
+#page-register-point form fieldset {
     margin-top: 64px;
     border: none;
 }
 
-form fieldset legend {
+#page-register-point form fieldset legend {
     margin-bottom: 40px;
     display: flex;
     align-items: center;
@@ -51,42 +51,41 @@ form fieldset legend {
     width: 100%;
 }
 
-form fieldset legend h2 {
+#page-register-point form fieldset legend h2 {
     font-size: 24px;
 }
 
-form fieldset legend span {
+#page-register-point form fieldset legend span {
     font-size: 14px;
     color: var(--title-color);
-
 }
 
-form .field {
+#page-register-point form .field {
     display: flex;
     flex: 1;
     flex-direction: column;
     margin-bottom: 24px;
 }
 
-form .field-address {
+#page-register-point form .field-address {
     display: flex;
 }
 
-form .field-address input[name="address"]{
+#page-register-point form .field-address input[name="address"]{
     width: 430px;
     margin-right: 16px;
 }
 
-form .field-address input[name="number"] {
+#page-register-point form .field-address input[name="number"] {
     width: 100%;
 }
 
-form .field-group {
+#page-register-point form .field-group {
     display: flex;
 }
 
-form input,
-form select {
+#page-register-point form input,
+#page-register-point form select {
     font-size: 16px;
     padding: 16px 24px;
     border: 1px solid #ccc;
@@ -94,27 +93,27 @@ form select {
     background-color: #f0f0f5;
 }
 
-form input:hover,
-form select:hover { 
+#page-register-point form input:hover,
+#page-register-point form select:hover { 
     border: 1px solid var(--primary-color);
 }
 
-form select {
+#page-register-point form select {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
 }
 
-form label {
+#page-register-point form label {
     font-size: 14px;
     margin-bottom: 8px;
 }
 
-form .field-group .field + .field {
+#page-register-point form .field-group .field + .field {
     margin-left: 24px;
 }
 
-form .create-point {
+#page-register-point form .create-point {
     width: 260px;
     height: 56px;
     margin-top: 40px;
@@ -127,11 +126,11 @@ form .create-point {
     transition: 400ms;
 }
 
-form .create-point:hover {
+#page-register-point form .create-point:hover {
     background-color: #2fb86e;
 }
 
-form .update-point {
+#page-register-point form .update-point {
     width: 260px;
     height: 56px;
     margin-top: 40px;
@@ -144,7 +143,7 @@ form .update-point {
     transition: 400ms;
 }
 
-form .update-point:hover {
+#page-register-point form .update-point:hover {
     background-color: #1a112b;
 }
 
